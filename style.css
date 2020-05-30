@@ -1,0 +1,56 @@
+header {
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 115px;
+  background-color: rgb(77, 71, 71);
+  text-align: center;
+  padding-top: 8px;
+  line-height: 8px;
+
+}
+
+header h2 {
+font-size: 18px;
+}
+
+header > hr {
+height: 12px;
+width: 12px;
+border-radius: 50%;
+text-align: center;
+margin-top: 8px;
+margin-bottom: 12px;
+}
+/* past header, into main */
+
+body {
+background-color:slategrey
+}
+body > main > div > image > img{
+  text-align: center;
+}
+body main div {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+footer {
+  padding-top: 01px;
+  text-align: left;
+  padding-left: 2px;
+  border-left: 2px;
+  height: 160px;
+  background-color: rgb(77, 71, 71);
+  color: white;
+  line-height: 24px;
+  opacity: .6;
+}
+
+
+
+a:link {color:white;}
+a:visited {color: white;}
+a:hover {color:darkgoldenrod;}
+a:active {color:brown;}
